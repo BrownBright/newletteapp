@@ -17,7 +17,7 @@ app.post('/' , function (req , res){
     var list_id = 'c93cad27fc'
     var url = "https://us7.api.mailchimp.com/3.0/lists/"+ list_id +"/members?skip_merge_validation=<SOME_BOOLEAN_VALUE>"
     var authintecation = {username : 'Testarea' ,
-        password: 'cc338339db85f812e47da0948b0ed1e3-us7'}
+        password: '*********************'}
     var firstname = req.body.fname ;
     var lastname = req.body.lname ;
     var Email = req.body.email ;
@@ -63,8 +63,7 @@ app.listen(port || 3000 , function(req, res){
 
 
 //  api key 
-//  cc338339db85f812e47da0948b0ed1e3-us7
-
+//  ***************************
 //list id 
 //  c93cad27fc
 
